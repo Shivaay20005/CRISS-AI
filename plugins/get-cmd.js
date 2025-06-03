@@ -43,7 +43,7 @@ Powered By *CRISS AI* 💜`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/4ggu0a.jpg` },
+            image: { url: `https://tinypic.host/images/2025/05/31/1000028228.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -51,7 +51,7 @@ Powered By *CRISS AI* 💜`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363417599637828@newsletter',
-                        newsletterName: 'CRISS AI',
+                        newsletterName: 'SHIVAAY',
                         serverMessageId: 143
                 }
             }
