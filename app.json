@@ -1,35 +1,34 @@
 {
   "name": "CRISS-AI",
-  "description": "Whatsapp Bot by Shivaay - CRISS-AI 🤖",
+  "description": "A powerful WhatsApp Bot built by Shivaay using Baileys",
   "repository": "https://github.com/Shivaay20005/CRISS-AI",
   "logo": "https://files.catbox.moe/j67u2n.jpg",
-  "keywords": ["node", "bot", "whatsapp", "shivaay", "CRISS-AI"],
+  "keywords": ["whatsapp", "bot", "nodejs", "baileys", "CRISS-AI", "shivaay"],
   "env": {
     "SESSION_ID": {
-      "description": "Put your WhatsApp Session ID",
+      "description": "Paste your WhatsApp Session ID here",
       "required": true
     },
+    "BOT_NAME": {
+      "description": "Your bot's display name",
+      "value": "CRISS-AI"
+    },
     "OWNER_NAME": {
-      "description": "Your Name",
+      "description": "Bot owner's name",
       "value": "Shivaay"
     },
     "OWNER_NUMBER": {
-      "description": "Your WhatsApp Number",
+      "description": "Your WhatsApp number (with country code)",
       "value": "91XXXXXXXXXX"
     },
-    "BOT_NAME": {
-      "description": "Your Bot's Name",
-      "value": "CRISS-AI"
+    "PREFIX": {
+      "description": "Command prefix for bot",
+      "value": "."
     },
     "MODE": {
-      "description": "Bot mode: public, private, group",
+      "description": "Bot working mode: public / private / group",
       "value": "public"
-    },
-    "PREFIX": {
-      "description": "Command prefix",
-      "value": "."
     }
-    // Add other ENV vars from your config as needed
   },
   "buildpacks": [
     {
