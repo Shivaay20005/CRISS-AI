@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/j67u2n.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *CRISS-AI* 〕━━┈⊷
+            image: { url: 'https://tinypic.host/images/2025/05/31/1000028228.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *SHIVAAY* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -45,7 +45,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363417599637828@newsletter',
-                    newsletterName: 'CRISS AI',
+                    newsletterName: 'SHIVAAY',
                     serverMessageId: 143
                 }            
             }
