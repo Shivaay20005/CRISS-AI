@@ -1,18 +1,23 @@
-# Use official Node.js LTS image
-FROM node:16-alpine
+# Base image
+FROM node:16
 
-# Create app directory
+# Install Git
+RUN apt-get update && apt-get install -y git
+
+# Set working directory
 WORKDIR /usr/src/app
 
-# Install app dependencies
+# Copy package.json and install dependencies
 COPY package*.json ./
+
+# Install npm dependencies
 RUN npm install
 
-# Copy the rest of the application
+# Copy all source files
 COPY . .
 
-# Expose port (optional for Heroku)
+# Expose the app port
 EXPOSE 3000
 
-# Start the bot
-CMD ["node", "index.js"]
+# Start the app using pm2
+CMD ["npm", "start"]
