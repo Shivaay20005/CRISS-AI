@@ -1,19 +1,18 @@
-# Base image
-FROM node:16
+# Use official Node.js LTS image
+FROM node:16-alpine
 
-# Set working directory
+# Create app directory
 WORKDIR /usr/src/app
 
-# Copy package.json and install dependencies
+# Install app dependencies
 COPY package*.json ./
 RUN npm install
 
-# Copy application source code
+# Copy the rest of the application
 COPY . .
 
-# Expose the port the app runs on
+# Expose port (optional for Heroku)
 EXPOSE 3000
 
-# Start the application
-CMD ["npm", "start"]
-
+# Start the bot
+CMD ["node", "index.js"]
