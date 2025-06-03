@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/criss-vevo/CRISS-AI';
+    const githubRepoURL = 'https://github.com/Shivaay20005/CRISS-AI';
 
     try {
         // Extract username and repo name from the URL
@@ -31,7 +31,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/j67u2n.jpg` },
+            image: { url: `https://tinypic.host/images/2025/05/31/1000028228.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -39,28 +39,28 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363417599637828@newsletter',
-                    newsletterName: 'CRISS AI',
+                    newsletterName: 'SHIVAAY',
                     serverMessageId: 143
                 }
             }
         }, { quoted: mek });
 
-        // Send the audio file with context info
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
-            mimetype: 'audio/mp4',
-            ptt: true,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363417599637828@newsletter',
-                    newsletterName: 'CRISS AI',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
+        // // Send the audio file with context info
+        // await conn.sendMessage(from, {
+        //     audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+        //     mimetype: 'audio/mp4',
+        //     ptt: true,
+        //     contextInfo: { 
+        //         mentionedJid: [m.sender],
+        //         forwardingScore: 999,
+        //         isForwarded: true,
+        //         forwardedNewsletterMessageInfo: {
+        //             newsletterJid: '120363417599637828@newsletter',
+        //             newsletterName: 'CRISS AI',
+        //             serverMessageId: 143
+        //         }
+        //     }
+        // }, { quoted: mek });
 
     } catch (error) {
         console.error("Error in repo command:", error);
