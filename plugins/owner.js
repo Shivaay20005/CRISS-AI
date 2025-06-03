@@ -38,7 +38,7 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʀɪss ᴠᴇᴠᴏ`, // Display the owner's details
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHIVAAY `, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
@@ -51,12 +51,12 @@ async (conn, mek, m, { from }) => {
             }
         }, { quoted: mek });
 
-        // Send audio as per your request
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/menunew.m4a' }, // Audio URL
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
+        // // Send audio as per your request
+        // await conn.sendMessage(from, {
+        //     audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/menunew.m4a' }, // Audio URL
+        //     mimetype: 'audio/mp4',
+        //     ptt: true
+        // }, { quoted: mek });
 
     } catch (error) {
         console.error(error);
