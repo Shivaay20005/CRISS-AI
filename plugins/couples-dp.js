@@ -2,12 +2,12 @@ const { cmd, commands } = require('../command');
 const axios = require('axios');
 
 cmd({
-  'pattern': "couplepp",
+  'pattern': "cowplus",
   'alias': ["couple", "cpp"],
   'react': '💑',
   'desc': "Get a male and female couple profile picture.",
   'category': "image",
-  'use': ".couplepp",
+  'use': ".cowplus",
   'filename': __filename
 }, async (conn, m, store, {
   from,
@@ -15,7 +15,7 @@ cmd({
   reply
 }) => {
   try {
-    reply("*💑 Fetching couple profile pictures...*");
+    reply("*💑 Fetching cowplus profile pictures...*");
     
     const response = await axios.get("https://api.davidcyriltech.my.id/couplepp");
 
