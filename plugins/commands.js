@@ -297,7 +297,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/4ggu0a.jpg` },
+                image: { url: `https://tinypic.host/images/2025/05/31/1000028228.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -305,7 +305,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363417599637828@newsletter',
-                        newsletterName: 'CRISS AI',
+                        newsletterName: 'SHIVAAY AI',
                         serverMessageId: 143
                     }
                 }
@@ -313,12 +313,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             { quoted: mek }
         );
 
-        // Send audio
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
+        // // Send audio
+        // await conn.sendMessage(from, {
+        //     audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+        //     mimetype: 'audio/mp4',
+        //     ptt: true
+        // }, { quoted: mek });
         
     } catch (e) {
         console.log(e);
