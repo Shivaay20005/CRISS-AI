@@ -1,16 +1,9 @@
-     𝗖𝗥𝗜𝗦𝗦 𝗔𝗜 𝗠𝗨𝗟𝗧𝗜 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-<p align="center">
-  <a href="https://github.com/criss-vevo">
-    <img alt="criss-vevo logo"  src="https://files.catbox.moe/j67u2n.jpg">
-  </a>
-</p>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+##SHIVAAY AI BOT##
+<a><img src='https://tinypic.host/images/2025/05/31/1000028228.jpg'/></a><a><img src='[https://i.imgur.com/LyHic3i.gif'](https://tinypic.host/images/2025/05/31/1000028228.jpg)/></a>
 
 
-#### SETUP 
+
+
 
 
 <p align="left">
